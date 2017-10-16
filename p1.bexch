@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__p1.o
+[PROJECT FILES]
+/home/almu/str/p1.gpr
+20171005160232
+[BOUND OBJECT FILES]
+/home/almu/str/p1.o
+[GENERATED SOURCE FILES]
+b__p1.ads
+b__p1.adb
+b__p1.ali
+[RESULTING OPTIONS]
+-L/home/almu/str/
+-L/home/almu/str/
+-L/usr/lib/gcc/x86_64-linux-gnu/6/adalib/
+-shared
+-shared-libgcc
+-lgnat-6
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/6/adalib/
+/usr/lib

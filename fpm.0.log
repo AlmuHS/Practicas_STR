@@ -1,0 +1,16 @@
+sep 14, 2017 4:09:57 PM com.functionpointmodeler.fpm.ui.logging.LoggingActivator start
+Configurar: Plugin com.functionpointmodeler.fpm.ui.logging started
+sep 14, 2017 4:09:58 PM com.functionpointmodeler.fpm.util.UtilActivator start
+Configurar: Plugin com.functionpointmodeler.fpm.util started
+sep 14, 2017 4:09:58 PM com.functionpointmodeler.fpm.navigator.NavigatorActivator start
+Configurar: Plugin com.functionpointmodeler.fpm.navigator started
+sep 14, 2017 4:10:00 PM com.functionpointmodeler.fpm.app.preferences.ApplicationPreferenceInitializer initializeDefaultPreferences
+Configurar: Initialize preference exitOnClose with value 0
+sep 14, 2017 4:10:02 PM com.functionpointmodeler.fpm.app.AppActivator stop
+Configurar: Plugin com.functionpointmodeler.fpm.app stopped
+sep 14, 2017 4:10:02 PM com.functionpointmodeler.fpm.navigator.NavigatorActivator stop
+Configurar: Plugin com.functionpointmodeler.fpm.navigator stopped
+sep 14, 2017 4:10:02 PM com.functionpointmodeler.fpm.util.UtilActivator stop
+Configurar: Plugin com.functionpointmodeler.fpm.util stopped
+sep 14, 2017 4:10:02 PM com.functionpointmodeler.fpm.ui.logging.LoggingActivator stop
+Configurar: Plugin com.functionpointmodeler.fpm.ui.logging stopped
