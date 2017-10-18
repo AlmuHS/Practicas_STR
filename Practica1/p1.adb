@@ -37,14 +37,19 @@ begin
       for i in reg_list'range loop
          Put_Line("Write temperature: ");
          reg_list(i).temperature := fixed_point'value(Get_Line);
+         Put_Line("Write day: ");
+         reg_list(i).day.day := Integer'value(Get_Line);
+         Put_Line("Write month: ");
+         reg_list(i).day.month := Integer'value(Get_Line);
+         Put_Line("Write year: ");
+         reg_list(i).day.year := Integer'value(Get_Line);
+
       end loop;
 
       counter := 1;
 
-      while counter <= size loop
-         --Put(reg_list(counter).temperature);
-         counter := counter + 1;
-      end loop;
+
+
 
    end;
 
