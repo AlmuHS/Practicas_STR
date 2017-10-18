@@ -32,6 +32,8 @@ begin
    declare
       reg_list: vector(1 .. size);
       counter: Integer;
+      max_temperature: fixed_point;
+      min_temperature: fixed_point;
    begin
 
       for i in reg_list'range loop
@@ -43,12 +45,9 @@ begin
          reg_list(i).day.month := Integer'value(Get_Line);
          Put_Line("Write year: ");
          reg_list(i).day.year := Integer'value(Get_Line);
-
       end loop;
 
-      counter := 1;
-
-
+      --max_temperature := reg_list'temperature
 
 
    end;
