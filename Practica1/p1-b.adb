@@ -6,12 +6,19 @@ procedure p1 is
    package IIO is new Integer_IO(Integer);
    use IIO;
 
+   --define float vector
    type float_vector is array(integer range<>) of float;
+
+   --define pointer to float vector
    type PVector is access float_vector;
+
+   --define vector of pointers to float vector
    type vector is array(integer range <>) of PVector;
 begin
 
    size := 0;
+
+   --Ask vector size to user
    Put_Line ("Set vector size: ");
    IIO.get(size);
 
