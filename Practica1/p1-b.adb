@@ -16,26 +16,34 @@ begin
    IIO.get(size);
 
    declare
-      --fvector: float_vector(1 .. size);
       v_pointer: PVector;
       p_table: vector(1 .. size);
    begin
-      v_pointer := new float_vector(1 .. size);
 
       for i in p_table'range loop
-         v_pointer := p_table(i);
 
+         --Creates float vector
+         v_pointer := new float_vector(1 .. size);
+
+         --Insert values in vector
          for j in v_pointer'range loop
             v_pointer(j) := float(i*j);
          end loop;
 
+         --Assign vector to pointers vector
+         p_table(i) := v_pointer;
+
       end loop;
 
+      --Shows vector contents
       for i in p_table'range loop
+
+         --Get float vector from pointers vector
          v_pointer := p_table(i);
 
+         --Shows values of vector
          for j in v_pointer'range loop
-           put_line(v_pointer(j)'img);
+           put_line("vector " & i'img & ", position " & j'img & ":" & v_pointer(j)'img);
          end loop;
 
       end loop;
