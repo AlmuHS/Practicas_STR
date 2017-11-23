@@ -11,16 +11,19 @@ package Colas is
    function "="(La_Cola, Con_La_Cola: Cola) return Boolean;
 private
 
+   type register;
+
+   type link is access register;
    type register is tagged
       record
          data: Elementos;
-         next: access register;
+         next: link;
       end record;
 
    type Cola is tagged
       record
-         first: access register;
-         last: access register;
+         first: link;
+         last: link;
       end record;
 
 end Colas;
