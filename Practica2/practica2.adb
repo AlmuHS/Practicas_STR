@@ -42,7 +42,7 @@ begin
          if C1 /= C2 then raise Practica_no_Funciona;
          end if;
 
-         for I in 1..1e7 loop
+         for I in 1..17 loop
             begin
                Poner(1, C1); Quitar(E, C1);
             exception

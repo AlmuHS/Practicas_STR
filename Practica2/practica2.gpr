@@ -1,0 +1,5 @@
+project Practica2 is
+    for Source_Dirs use (".");
+    for Object_Dir use "obj";
+    for Main use ("practica2.adb");
+end Practica2;

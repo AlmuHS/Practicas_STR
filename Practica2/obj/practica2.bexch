@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__practica2.o
+[PROJECT FILES]
+/home/almu/Practicas_STR/Practica2/practica2.gpr
+20171120123039
+[BOUND OBJECT FILES]
+/home/almu/Practicas_STR/Practica2/obj/colas.o
+/home/almu/Practicas_STR/Practica2/obj/practica2.o
+[GENERATED SOURCE FILES]
+b__practica2.ads
+b__practica2.adb
+b__practica2.ali
+[RESULTING OPTIONS]
+-L/home/almu/Practicas_STR/Practica2/obj/
+-L/home/almu/Practicas_STR/Practica2/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnat-7
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

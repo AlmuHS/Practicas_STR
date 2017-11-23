@@ -1,7 +1,7 @@
 project P1 is
 
-   for Source_Files use ("p1.adb");
-   for Main use ("p1.adb");
+   for Source_Files use ("p1.adb", "p1-b.adb", "p1-c.adb");
+   for Main use ("p1-b.adb");
 
 end P1;
 
