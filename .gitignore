@@ -6,3 +6,7 @@
 
 #Binary file
 *.exe
+
+b_*
+
+./obj/*
