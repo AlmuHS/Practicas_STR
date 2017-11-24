@@ -8,20 +8,26 @@ procedure Practica2 is
    C1, C2, C3: Cola;
    E: Integer;
 begin
+
+         Put_Line("Insertando elementos en cola C1");
          for I in 1..10 loop
             Poner(I, C1);
          end loop;
 
+         Put_Line("Insertando elementos en cola C2");
          for I in 11..20 loop
             Poner(I, C2);
          end loop;
 
+         Put_Line("Probando operador /=");
          if C1 /= C1 then raise Practica_no_Funciona;
          end if;
 
+         Put_Line("Probando operador =");
          if C1 = C2 then raise Practica_no_Funciona;
          end if;
 
+         Put_Line("Probando Copia C1 -> C3");
          Poner(1, C3); Copiar (C2, C3);
 
          if C2 /= C3 then raise Practica_no_Funciona;
