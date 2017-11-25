@@ -1,4 +1,6 @@
 
+
+
 package body Colas is
 
    procedure Poner(el_Elemento: Elementos; en_la_Cola: in out Cola) is
@@ -54,8 +56,8 @@ package body Colas is
          return false;
 
       elsif Esta_Llena(La_Cola) and Esta_Llena(Con_La_Cola) then
-         aux1 := new register'(data => La_Cola.first.data, next => La_Cola.first.next);
-         aux2 := new register'(data => Con_La_Cola.first.data, next => Con_La_Cola.first.next);
+         aux1 := La_Cola.first;
+         aux2 := Con_La_Cola.first;
 
          while aux1 /= null and aux2 /= null loop
             if aux1.data = aux2.data then

@@ -37,9 +37,13 @@ begin
          if C2 /= C3 then raise Practica_no_Funciona;
          end if;
 
+         Put_Line("Probando funciones Poner y Quitar");
          while not Esta_Vacia (C3) loop
             Quitar(E, C3); Poner(E, C1);
          end loop;
+
+         if C3 = C1 then raise Practica_no_Funciona;
+         end if;
 
          while not Esta_Vacia (C2) loop
             Quitar(E, C2);
