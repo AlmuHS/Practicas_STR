@@ -1,5 +1,3 @@
-with Ada.Text_Io;  use Ada.Text_Io;
-
 
 package body Colas is
 
@@ -74,7 +72,7 @@ package body Colas is
 
    begin
 
-         lacola.first := lacola.last;
+   lacola.first := lacola.last;
 
 
 end Colas;

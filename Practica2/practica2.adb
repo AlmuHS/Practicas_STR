@@ -19,6 +19,10 @@ begin
             Poner(I, C2);
          end loop;
 
+         Put_Line("Probando funcion Esta_Vacia");
+         if Esta_Vacia(C1) then raise Practica_No_Funciona;
+         end if;
+
          Put_Line("Probando operador /=");
          if C1 /= C1 then raise Practica_no_Funciona;
          end if;
@@ -59,7 +63,8 @@ begin
          end loop;
          Put_Line ("Practica correcta");
 
-      exception
+
+   exception
          when Practica_no_Funciona =>
             Put_Line ("Practica no Funciona");
          when Storage_Error =>

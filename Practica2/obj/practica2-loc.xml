@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
@@ -66,7 +65,7 @@
       <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
       <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 32" line=" 63" >
+    <file_marker column=" 9" line=" 79" >
       <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
       <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
     </file_marker>
@@ -74,13 +73,193 @@
       <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
       <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 45" >
+    <file_marker column=" 23" line=" 55" >
       <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
       <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 5" >
+    <file_marker column=" 4" line=" 5" >
       <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
       <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 10" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 10" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 46" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 72" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 81" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 75" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 57" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 77" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 61" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 46" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 10" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 16" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 69" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 72" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 48" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 33" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 21" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 10" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 12" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 10" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 8" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 25" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 66" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/practica2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 8" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 14" line=" 27" >
+      <vfs_project>/home/almu/Practicas_STR/Practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/almu/Practicas_STR/Practica2/colas.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
