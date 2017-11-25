@@ -3,8 +3,13 @@ package body Colas is
 
    procedure Poner(el_Elemento: Elementos; en_la_Cola: in out Cola) is
    begin
-      en_la_Cola.last := new register'(data => el_Elemento, next => null);
-      en_la_Cola.last := en_la_Cola.last.next;
+      if Esta_Vacia(en_la_Cola) then
+        en_la_Cola.first := new register'(data => el_Elemento, next => null);
+        en_la_Cola.last := en_la_Cola.first.next;
+      else
+         en_la_Cola.last := new register'(data => el_Elemento, next => null);
+         en_la_Cola.last := en_la_Cola.last.next;
+      end if;
    end Poner;
 
    procedure Quitar(un_Elemento: out Elementos;de_la_Cola:in out Cola) is
