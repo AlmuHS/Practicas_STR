@@ -1,6 +1,3 @@
-
-
-
 package body Colas is
 
    procedure Poner(el_Elemento: Elementos; en_la_Cola: in out Cola) is
@@ -15,10 +12,13 @@ package body Colas is
    end Poner;
 
    procedure Quitar(un_Elemento: out Elementos;de_la_Cola:in out Cola) is
+      aux : link;
    begin
       if Esta_Llena(de_la_Cola) then
          un_Elemento := de_la_Cola.first.data;
-         de_la_Cola.first := de_la_Cola.first.next;
+         aux := de_la_Cola.first;
+         Liberar_Register(de_la_Cola.first);
+         de_la_Cola.first := aux.next;
       end if;
 
    end Quitar;
