@@ -16,9 +16,9 @@ package body Colas is
    begin
       if Esta_Llena(de_la_Cola) then
          un_Elemento := de_la_Cola.first.data;
-         aux := de_la_Cola.first;
+         aux := de_la_Cola.first.next;
          Liberar_Register(de_la_Cola.first);
-         de_la_Cola.first := aux.next;
+         de_la_Cola.first := aux;
       end if;
 
    end Quitar;
@@ -35,10 +35,30 @@ package body Colas is
    end Esta_Llena;
 
 
-   procedure Copiar (Origen: Cola; Destino:in out Cola) is
+   --procedure Copiar (Origen: Cola; Destino:in out Cola) is
+   --begin
+   --   Destino.first := Origen.first;
+   --   Destino.last := Origen.last;
+   --end Copiar;
+
+   procedure Copiar (Origen: Cola; Destino: in out Cola) is
+      aux: link;
+      elem : Elementos;
    begin
-      Destino.first := Origen.first;
-      Destino.last := Origen.last;
+
+      if Esta_Llena(Origen) then
+         Destino.first := Destino.last;
+
+         aux := Origen.first;
+
+         while aux /= null loop
+            elem := aux.data;
+            Poner(elem, Destino);
+            aux := aux.next;
+         end loop;
+
+      end if;
+
    end Copiar;
 
 
