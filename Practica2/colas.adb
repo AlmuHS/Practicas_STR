@@ -51,7 +51,7 @@ package body Colas is
 
          aux := Origen.first;
 
-         while aux /= null loop
+         while aux /= Origen.last loop
             elem := aux.data;
             Poner(elem, Destino);
             aux := aux.next;
