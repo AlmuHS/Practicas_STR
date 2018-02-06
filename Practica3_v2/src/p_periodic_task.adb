@@ -11,12 +11,12 @@ with Ada.Text_IO;
 package body P_Periodic_Task is
 
    task view_task is
-      entry ex_Handle_Failure(Fail : Global.Execution_Type; id: Integer);
+      entry ex_Handle_Failure;
       entry ex_Periodic_Activity(id: Integer);
    end view_task;
 
 
-   procedure Handle_Failure (Fail : Global.Execution_Type) is
+   procedure Handle_Failure is
    begin
       Ada.Text_IO.Put("Deadline reached. Task with delay: ");
       Write_Time(Ada.Calendar.Clock);
@@ -38,9 +38,9 @@ package body P_Periodic_Task is
                Periodic_Activity(id);
             end ex_Periodic_Activity;
          or
-            accept ex_Handle_Failure (Fail : Global.Execution_Type ; id: Integer) do
+            accept ex_Handle_Failure do
                --DeadLine reached
-               Handle_Failure(Fail);
+               Handle_Failure;
             end ex_Handle_Failure;
          end select;
       end loop;
@@ -52,14 +52,13 @@ package body P_Periodic_Task is
       time: Ada.Calendar.Time := Ada.Calendar.Clock;
       Next : Ada.Real_Time.Time := Global.Start_Time + Ada.Real_Time.Milliseconds(Phase);
       End_deadline : Ada.Real_Time.Time := Global.Start_Time + Ada.Real_Time.Milliseconds(Deadline);
-      deadline_off:Exception; --Exception declare
 
       begin
       -- Periodic_Task
       loop
          delay until Next;
            select
-             view_task.ex_Handle_Failure(Global.Internal_Error,id);
+            view_task.ex_Handle_Failure;
            else
               if Ada.Real_Time.Clock > Next then
                  view_task.ex_Periodic_Activity(id);
@@ -68,9 +67,6 @@ package body P_Periodic_Task is
            Next := Next + Ada.Real_Time.Milliseconds(Period);
       end loop;
 
-      --exception
-   exception
-         when deadline_off => view_task.ex_Handle_Failure(Global.Internal_Error, id);
 
    end Periodic_Task;
 end P_Periodic_Task;
